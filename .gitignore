@@ -1,1 +1,9 @@
 upload.py
+.ipynb_checkpoints
+project/.kaggle/
+__pycache__/
+*.py[cod]
+*.csv
+AutogluonModels/
+*.zip
+project/project-template.ipynb
