@@ -7,7 +7,10 @@
 Needed to verify non negative values, and adjust any negative value to zero.
 
 ### What was the top ranked model that performed?
-It was the hyperparameter optimization model.
+![best_models_hpo.png](best_models_hpo.png)
+
+The best result in the final submission (0.5497) was produced by a WeightedEnsamble_L3 model
+
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
 Datetime its not a numeric feature and it has a different behavior in comparison to other features. As such, I split this feature into three categories hour, month and day to update the behavior of the variable.
@@ -29,12 +32,8 @@ Preprocessing the data, change scale of features and model time to normalized fe
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-TODO: Replace the image below with your own.
-
 ![model_train_score.png](model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
-
-TODO: Replace the image below with your own.
 
 ![model_test_score.png](model_test_score.png)
